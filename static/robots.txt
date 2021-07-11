@@ -1,0 +1,5 @@
+# allow all
+User-agent: *
+Allow: /
+
+Sitemap: https://philipzakarian.com/sitemap.xml
