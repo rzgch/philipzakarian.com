@@ -1,0 +1,29 @@
+<header>
+
+  <nav>
+    <ul>
+      {{ $title := lower .Title }}
+      {{ $section := lower .Section }}
+      <li class="pull-left hostname {{ if .IsHome }}current{{ end }}">
+        <a href="{{ .Site.BaseURL }}">{{ .Site.Title}}</a>
+      </li>
+      {{ range .Site.Menus.main }}
+      {{ $name := lower .Name }}
+      <li class="pull-left indexinfo {{ if eq $name $title }}current{{ else if eq $section $name }}current{{ else if eq $title (pluralize $name) }}current{{ end }}">
+        <a href="{{ .URL }}">{{ lower .Name }}</a>
+      </li>
+      {{end}}
+
+      {{ range .Site.Menus.feed }}
+      {{ $name := lower .Name}}
+      <li class="pull-right rss">
+        <a href="{{ .URL }}">{{ lower .Name}}</a>
+      </li>
+      <li class="pull-right rss">
+        ·
+      </li>
+      {{end}}
+
+    </ul>
+  </nav>
+</header>

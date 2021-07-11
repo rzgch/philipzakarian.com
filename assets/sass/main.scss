@@ -1,0 +1,246 @@
+/* fonts */
+$mainFontFamily: NotoSansArmenianW,"Noto Sans Armenian",-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,sans-serif;
+$codeFontFamily: MononokiW,"Lucida Console",Liberation Mono,Monaco,monospace;
+$monoFont: $mainFontFamily;
+
+/* colors: light */
+$colorLinkDark: #121212;
+$colorLinkLight: #0000ee;
+$colorBorder: #cccccc;
+$colorCodeBg: #f8f8f8;
+$colorAboutBg: #eeeeee;
+$colorTitle: #263238;
+$colorArticle: #354545;
+$colorCaption: #666666;
+$colorPageBg: #ffffff;
+$colorHeadBg: #ffffff;
+
+/* fonts */
+@font-face {
+  font-family: NotoSansArmenianW;
+  src: url('/fonts/NotoSansArmenian-Regular.woff2') format('woff2');
+}
+
+/*
+@font-face {
+  font-family: MononokiW;
+  src: url('/fonts/mononoki-Regular.woff2') format('woff2');
+}
+*/
+
+/* titles */
+.title, h1, h2, h3, h4, h5, h6 {
+    font-family: $mainFontFamily;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $colorTitle;
+    padding: 0 20px 0 20px;
+}
+
+/* links */
+a {
+    color: $colorLinkLight;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+/* header */
+header {
+    position: relative;
+    width: 100%;
+    height: 1.75rem;
+    font-family: $monoFont;
+    font-size: .875rem;
+    background: $colorHeadBg;
+    border-bottom: 1px solid $colorBorder;
+
+    ul, ol {
+        margin: 0;
+        padding: 0;
+        list-style: none
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    a {
+        color: $colorLinkDark;
+        line-height: 1.75rem;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    }
+
+    .hostname {
+        background-color: $colorAboutBg;
+        color: $colorLinkDark;
+    }
+    .rss {
+        color: $colorLinkDark;
+    }
+}
+
+/* footer */
+footer {
+    font-size: .750rem;
+    font-family: $monoFont;
+    border-top: 1px solid $colorBorder;
+    padding: 0.5rem;
+    background-color: $colorAboutBg;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+/* Code Boxes */
+pre {
+    border-top: 1px dashed $colorBorder;
+    border-bottom: 1px dashed $colorBorder;
+    background: $colorCodeBg;
+    padding: 1em;
+    overflow-x: auto;
+  
+    code {
+        background: none;
+    }
+}
+
+code {
+    background: $colorCodeBg;
+    font-family: $codeFontFamily;
+    font-size: 90%;
+    padding: 3px;
+}
+
+blockquote {
+    background: $colorCodeBg;
+    border-left: 5px solid $colorBorder;
+    padding: 3px 1em 3px;
+}
+
+/* objects */
+.pull-left {
+    float: left
+}
+
+.pull-right {
+    float: right
+}
+
+hr {
+    color: $colorBorder;
+    width: 100%;
+}
+
+/* tables */
+table {
+    width: 100%;
+    border-top: 1px solid $colorBorder;
+    border-bottom: 1px solid $colorBorder;
+    background-color: $colorHeadBg;
+
+    thead th { 
+        border-bottom: 1px solid $colorBorder; 
+    }
+}
+
+th, td {
+    padding: 5px;
+}
+
+/* images */
+img {
+    display: block;
+}
+
+figure {
+    margin: auto;
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+}
+
+figcaption {
+    display: block;
+    text-align: center;
+    font-size: 75%;
+    color: $colorCaption;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: $mainFontFamily;
+    line-height: 2;
+    color: $colorArticle;
+    word-wrap: break-word;
+    font-size: 1.25rem;
+    letter-spacing: 0.025rem;
+    background-color: $colorPageBg;
+    border: 1px solid $colorBorder;
+}
+
+p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@counter-style thumbs {
+  system: cyclic;
+  symbols: "\1F44D";
+  suffix: " ";
+}
+
+ul {
+    list-style-type: '-';
+}
+
+/* article information */
+.article-meta {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menu {
+    li {
+        display: inline-block;
+    }
+    a {
+        @extend .article-meta;
+    }
+    text-align: center;
+}
+
+.terms {
+    font-size: .9em;
+}
+
+.date {
+    color: $colorCaption;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.refindex {
+    display: table-cell;
+}
+
+ul.menulist {
+    list-style-type: none;
+    li {
+        padding: 6px;
+    }
+}
+
+div.asterism {
+    text-align: center;
+    padding: 25px;
+    font-size: 1.5rem;
+}
+

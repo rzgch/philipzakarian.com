@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:site_name" content="{{ .Site.Title }}"/>
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:description" content="{{ .Summary  }}" />
+{{ if .Params.og_image }}
+    <meta property="og:image" content="{{ .Params.og_image }}"/>
+{{ else }}
+    <meta property="og:image" content="{{ .Site.Params.og_image }}"/>
+{{ end }}
+    <meta property="og:type" content="article" />
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    {{ $options := (dict "outputStyle" "compressed") }}
+    {{ $style := resources.Get "sass/main.scss" | resources.ToCSS $options | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}" />
+    <link rel="icon" href="/images/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/images/favicon-apple-touch.png">
+  </head>
+
+  <body>
+{{ partial "head_custom.html" . }}

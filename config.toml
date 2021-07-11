@@ -1,0 +1,49 @@
+baseurl = "https://philip-zakarian.com"
+languageCode = "en-us"
+title = "Ֆիլիբ Զաքարեան"
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
+rssLimit = 20
+
+[markup]
+  [markup.highlight]
+    style="native"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+
+[[menu.feed]]
+    name = "rss"
+    url = "/index.xml"
+
+[[menu.feed]]
+    name = "կապեր"
+    url = "/page/contact"
+
+[[menu.feed]]
+    name = "կենսագրական"
+    url = "/page/bio"
+
+[[menu.feed]]
+    name = "հատորներ"
+    url = "/hadorner/"
+
+[params]
+    footer = ""
+    poweredby = ""
+    subtitle = "Որբը Տուն Շինեց"
+    logo = "images/logo.png"
+    favicon = "favicon.ico"
+    commit = false
+    rss = true
+    comments = false
+    og_image = "/images/logo.png"
+
+[author]
+    name = "Ֆիլիբ Զաքարեան"
+
+[markup.goldmark.renderer]
+    unsafe= true

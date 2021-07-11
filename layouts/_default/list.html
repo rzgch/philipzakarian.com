@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+
+{{if not .IsHome }}
+<h1>{{ .Title }}</h1>
+{{ end }}
+
+<main>
+{{ .Content }}
+
+<ul class="menulist">
+  {{ range (where .Site.RegularPages.Reverse "Section" "==" "post") }}
+  <li>
+    <a class="refindex" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+
+</main>
+
