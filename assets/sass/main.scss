@@ -225,10 +225,22 @@ ul {
     font-size: .9em;
 }
 
+a.termref {
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
 .date {
     color: $colorCaption;
     font-size: 1.1rem;
     font-weight: 400;
+}
+
+.author {
+    padding: 15px;
+    font-size: 1.2rem;
+    text-align: right;
+    font-style: italic;
 }
 
 .refindex {

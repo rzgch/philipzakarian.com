@@ -8,6 +8,9 @@ enableEmoji = true
 footnotereturnlinkcontents = "↩"
 rssLimit = 20
 
+[taxonomies]
+  hador = "hadorner"
+
 [markup]
   [markup.highlight]
     style="native"
