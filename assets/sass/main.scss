@@ -9,6 +9,7 @@ $colorLinkLight: #0000ee;
 $colorBorder: #cccccc;
 $colorCodeBg: #f8f8f8;
 $colorAboutBg: #eeeeee;
+$colorFooterBg: #ffffd7;
 $colorTitle: #263238;
 $colorArticle: #354545;
 $colorCaption: #666666;
@@ -76,6 +77,9 @@ header {
         background-color: $colorAboutBg;
         color: $colorLinkDark;
     }
+    .toplink{
+        color: $colorLinkDark;
+    }
     .rss {
         color: $colorLinkDark;
     }
@@ -87,7 +91,7 @@ footer {
     font-family: $monoFont;
     border-top: 1px solid $colorBorder;
     padding: 0.5rem;
-    background-color: $colorAboutBg;
+    background-color: $colorFooterBg;
     text-align: center;
 
     a {

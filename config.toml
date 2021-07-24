@@ -23,13 +23,13 @@ rssLimit = 20
     name = "կապեր"
     url = "/page/contact"
 
-[[menu.feed]]
-    name = "կենսագրական"
-    url = "/page/bio"
+#[[menu.feed]]
+#    name = "կենսագրական"
+#    url = "/page/bio"
 
-[[menu.feed]]
-    name = "հատորներ"
-    url = "/hadorner/"
+#[[menu.feed]]
+#    name = "հատորներ"
+#    url = "/hadorner/"
 
 [params]
     footer = ""

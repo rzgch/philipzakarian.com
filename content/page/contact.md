@@ -4,21 +4,24 @@ title: Կապեր
 
 <img class='pull-right' alt='envelope' width='200px' src='/images/envelope.svg' />
 
-Այս կայքէջը պատրաստուած է Ֆիլիբ Զաքարեանի ընտանիքին եւ թոռներուն կողմէ։
+Այս կայքը պատրաստուած է Ֆիլիբ Զաքարեանի ընտանիքին եւ թոռներուն կողմէ։
 
-Անճշդութիւններ կամ սխալ արտագրումներ սրբագրելու, կամ այլ նպատակներու կրնաք կապուիլ ստորեւ նշուած հասցէներուն։
+Ներկայացուած գրութիւնները արտագրուած են 1985-ին հրատարակուած **«Որբը Տուն Շինեց»** գիրքերէն։ Պատմուածքները հերթաբար պիտի տեղադրուին սկսելով առաջին հատորէն։
+
+Կապուելու համար կրնաք դիմել հետեւեալ հասցէին՝
 
 contact@philipzakarian.com
 
-### Կայքէջի Թեքնիք Մանրամասներ
+### Կայքի Թեքնիք Մանրամասնութիւններ
 
 - Made with the static site generator [Hugo][hugo-static]
 - Based on the minimal theme [Hugo Classic][hugo-classic]
-- Some icons are from [Ikonate][ikonate]
-- Font used is Noto Sans Armenian
+- Icons are from [Ikonate][ikonate]
+- Font used is [Noto Sans Armenian][font-noto]
 - Hosted with [OpenBSD][openbsd]
 
 [hugo-static]: https://gohugo.io/
 [hugo-classic]: https://github.com/goodroot/hugo-classic
 [ikonate]: https://ikonate.com/
+[font-noto]: https://www.google.com/get/noto/
 [openbsd]: https://www.openbsd.org/

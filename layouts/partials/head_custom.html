@@ -14,14 +14,16 @@
       </li>
       {{end}}
 
-      {{ range .Site.Menus.feed }}
-      {{ $name := lower .Name}}
-      <li class="pull-right rss">
-        <a href="{{ .URL }}">{{ lower .Name}}</a>
-      </li>
-      <li class="pull-right rss">
-        ·
-      </li>
+      {{ $count := len .Site.Menus.feed }}
+      {{ $count := sub $count 1 }}
+      {{ range $index, $page := .Site.Menus.feed }}
+        {{ $name := lower .Name}}
+        <li class="pull-right {{ if eq $index 0 }}rss{{ else }}toplink{{ end }}">
+          <a href="{{ .URL }}">{{ $name }}</a>
+        </li>
+        {{ if gt $count $index }}
+        <li class="pull-right">·</li>
+        {{ end }}
       {{end}}
 
     </ul>
