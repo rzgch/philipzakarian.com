@@ -5,7 +5,8 @@ $monoFont: $mainFontFamily;
 
 /* colors: light */
 $colorLinkDark: #121212;
-$colorLinkLight: #0000ee;
+$colorLinkLight: #3d6177;
+$colorLinkWhite: #ffffff;
 $colorBorder: #cccccc;
 $colorCodeBg: #f8f8f8;
 $colorAboutBg: #eeeeee;
@@ -134,6 +135,10 @@ blockquote {
     float: right
 }
 
+img.cover {
+    border: 1px solid $colorLinkLight;
+}
+
 hr {
     color: $colorBorder;
     width: 100%;
@@ -201,7 +206,8 @@ p {
 }
 
 ul {
-    list-style-type: '-';
+    list-style-type: '- ';
+    margin: 20px;
 }
 
 /* article information */

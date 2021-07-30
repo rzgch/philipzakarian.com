@@ -1,10 +1,8 @@
 {{ partial "header.html" . }}
 <div class="article-meta">
+<h5>{{ range .Params.hadorner }}«{{ . }}»{{ end }}</h5>
 <h1 class="title">{{ .Title }}</h1>
-<p class="author">
-{{ range .Params.hadorner }}«{{ . }}»<br>{{ end }}
-{{ with .Params.author }}{{ . }}{{ end }}
-</p>
+<p class="author"></p>
 </div>
 
 {{ if .Params.toc }}
