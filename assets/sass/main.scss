@@ -128,15 +128,21 @@ blockquote {
 
 /* objects */
 .pull-left {
-    float: left
+    float: left;
 }
 
 .pull-right {
-    float: right
+    float: right;
 }
 
 img.cover {
     border: 1px solid $colorLinkLight;
+    @media (max-width: 600px) {
+        margin-bottom: 25px;
+        float: none;
+        width: 100%;
+        border: 0px;
+    }
 }
 
 hr {

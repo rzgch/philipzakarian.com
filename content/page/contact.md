@@ -2,8 +2,6 @@
 title: Կապեր
 ---
 
-<img class='pull-right' alt='Կապեր' width='150px' src='/images/envelope.svg' />
-
 ### Մեր Մասին
 
 Այս կայքը պատրաստուած է Ֆիլիբ Զաքարեանի ընտանիքին եւ թոռներուն կողմէ։
@@ -13,8 +11,6 @@ title: Կապեր
 Կապուելու համար կրնաք դիմել հետեւեալ հասցէին՝
 
 contact@philipzakarian.com
-
-<img class='pull-right' alt='Կայքի Թեքնիք Մանրամասնութիւններ' width='150px' src='/images/settings.svg' />
 
 ### Կայքի Թեքնիք Մանրամասնութիւններ
 
