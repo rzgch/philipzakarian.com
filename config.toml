@@ -19,16 +19,24 @@ rssLimit = 20
     post = "/post/:year/:month/:day/:slug/"
 
 [[menu.feed]]
+    weight = 1
     name = "rss"
     url = "/index.xml"
 
 [[menu.feed]]
+    weight = 3
     name = "մեր մասին"
     url = "/page/contact"
 
 [[menu.feed]]
+    weight = 2
     name = "կապ"
     url = "mailto:contact@philipzakarian.com"
+
+[[menu.feed]]
+    weight = 4
+    name = "գիրքեր"
+    url = "/page/books"
 
 #[[menu.feed]]
 #    name = "կենսագրական"
