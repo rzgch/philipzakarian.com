@@ -1,4 +1,7 @@
 {{ partial "header.html" . }}
+
+<a href="/"><img class='pull-right' alt='Բովանդակութիւն' width='100px' src='/images/contents.svg' /></a>
+
 <div class="article-meta">
 <h5>{{ range .Params.hadorner }}«{{ . }}»{{ end }}</h5>
 <h1 class="title">{{ .Title }}</h1>
@@ -12,5 +15,9 @@
 <main>
 {{ .Content }}
 </main>
+
+<a href="/"><img class='pull-right' alt='Բովանդակութիւն' width='100px' src='/images/contents.svg' /></a>
+
+<div class="endarticle">{{ .Params.author }}</div>
 
 {{ partial "footer.html" . }}

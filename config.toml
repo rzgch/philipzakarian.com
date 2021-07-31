@@ -23,8 +23,12 @@ rssLimit = 20
     url = "/index.xml"
 
 [[menu.feed]]
-    name = "կապեր"
+    name = "մեր մասին"
     url = "/page/contact"
+
+[[menu.feed]]
+    name = "կապ"
+    url = "mailto:contact@philipzakarian.com"
 
 #[[menu.feed]]
 #    name = "կենսագրական"

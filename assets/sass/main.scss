@@ -56,7 +56,7 @@ header {
     font-family: $monoFont;
     font-size: .875rem;
     background: $colorHeadBg;
-    border-bottom: 1px solid $colorBorder;
+//    border-bottom: 1px solid $colorBorder;
 
     ul, ol {
         margin: 0;
@@ -272,3 +272,10 @@ div.asterism {
     font-size: 1.5rem;
 }
 
+div.endarticle {
+    text-align: left;
+    margin: 25px;
+    padding: 25px;
+    font-style: italic;
+    font-size: 1.1rem;
+}
