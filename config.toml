@@ -7,6 +7,7 @@ preserveTaxonomyNames = true
 enableEmoji = true
 footnotereturnlinkcontents = "↩"
 rssLimit = 20
+summaryLength = 25
 
 [taxonomies]
   hador = "hadorner"
@@ -50,12 +51,12 @@ rssLimit = 20
     footer = ""
     poweredby = ""
     subtitle = "Որբը Տուն Շինեց"
-    logo = "images/logo.png"
+    logo = "images/cover.png"
     favicon = "favicon.ico"
     commit = false
     rss = true
     comments = false
-    og_image = "/images/logo.png"
+    og_image = "/images/cover.png"
 
 [author]
     name = "Ֆիլիբ Զաքարեան"
