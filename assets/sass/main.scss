@@ -204,11 +204,20 @@ body {
     letter-spacing: 0.025rem;
     background-color: $colorPageBg;
     border: 1px solid $colorBorder;
+    @media (max-width: 600px) {
+        font-size: 1.125rem;
+        letter-spacing: 0.015rem;
+        line-height: 1.75;
+    }
 }
 
 p {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    @media (max-width: 600px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 @counter-style thumbs {
