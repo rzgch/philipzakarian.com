@@ -206,8 +206,8 @@ body {
     border: 1px solid $colorBorder;
     @media (max-width: 600px) {
         font-size: 1.125rem;
-        letter-spacing: 0.015rem;
-        line-height: 1.75;
+        letter-spacing: normal;
+        line-height: 1.5;
     }
 }
 
@@ -275,7 +275,8 @@ a.termref {
 }
 
 ul.menulist {
-    list-style-type: none;
+//    list-style-type: none;
+    list-style-type: disclosure-closed;
     li {
         padding: 6px;
     }
