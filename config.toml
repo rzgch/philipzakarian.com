@@ -51,12 +51,12 @@ summaryLength = 25
     footer = ""
     poweredby = ""
     subtitle = "Որբը Տուն Շինեց"
-    logo = "images/cover.png"
+    logo = "images/logo.png"
     favicon = "favicon.ico"
     commit = false
     rss = true
     comments = false
-    og_image = "/images/cover.png"
+    og_image = "/images/logo.png"
 
 [author]
     name = "Ֆիլիբ Զաքարեան"
