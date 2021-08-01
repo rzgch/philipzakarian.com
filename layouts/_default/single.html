@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-<a href="/"><img class='pull-right' alt='Բովանդակութիւն' width='100px' src='/images/contents.svg' /></a>
+<a href="/"><img class='pull-right' alt='Բովանդակութիւն' width='90px' src='/images/contents.svg' /></a>
 
 <div class="article-meta">
 <h5>{{ range .Params.hadorner }}«{{ . }}»{{ end }}</h5>
@@ -13,12 +13,11 @@
 {{ .TableOfContents }}
 {{ end }}
 
-
 <main>
 {{ .Content }}
 </main>
 
-<a href="/"><img class='pull-right' alt='Բովանդակութիւն' width='100px' src='/images/contents.svg' /></a>
+<a href="/"><img class='pull-right' alt='Բովանդակութիւն' width='90px' src='/images/contents.svg' /></a>
 
 <div class="endarticle">{{ .Params.author }}</div>
 
