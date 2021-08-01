@@ -1,5 +1,5 @@
 baseurl = "https://philipzakarian.com"
-languageCode = "en-us"
+languageCode = "hy-AM"
 title = "Ֆիլիբ Զաքարեան"
 googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
