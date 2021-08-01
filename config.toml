@@ -52,7 +52,6 @@ summaryLength = 25
     footer = ""
     poweredby = ""
     subtitle = "Որբը Տուն Շինեց"
-    description = "Որբը Տուն Շինեց"
     logo = "images/logo.jpg"
     favicon = "favicon.ico"
     commit = false

@@ -2,7 +2,7 @@
 {{- if .Param "socialshare" }}
   {{ $title := .Title }}
   {{ $url := printf "%s" .Permalink }}
-  {{ $body := print $title ", " .Site.Title "\n" .Params.subtitle "\n\n" $url "\n" }}
+  {{ $body := print $title ", " .Site.Title "\n\n" $url "\n" }}
 
   <section class="social-share">
     <ul class="share-icons">
