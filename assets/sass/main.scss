@@ -295,3 +295,41 @@ div.endarticle {
     font-style: italic;
     font-size: 1.1rem;
 }
+
+/* social share */
+.social-share {
+    float: right;
+}
+
+.social-share ul {
+	margin: 2;
+}
+ 
+.social-share ul li p {
+	display: none;
+}
+ 
+.social-share .share-icons li {
+	padding: 1 !important;
+}
+ 
+ul.share-icons {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.share-icons li {
+	display: inline-block;
+	padding: 0 1em 0 0;
+}
+
+ul.share-icons li:last-child {
+	padding-right: 0;
+}
+
+ul.share-icons li > * {
+	text-decoration: none;
+	border: 0;
+}
+

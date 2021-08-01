@@ -5,12 +5,14 @@
 <div class="article-meta">
 <h5>{{ range .Params.hadorner }}«{{ . }}»{{ end }}</h5>
 <h1 class="title">{{ .Title }}</h1>
+{{ partial "socialshare.html" . }}
 <p class="author"></p>
 </div>
 
 {{ if .Params.toc }}
 {{ .TableOfContents }}
 {{ end }}
+
 
 <main>
 {{ .Content }}

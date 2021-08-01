@@ -3,6 +3,7 @@ title: Անբաժան Թշնամիս
 date: 2021-01-01
 author: Ֆիլիբ Զաքարեան
 hadorner: ['Այս Սքանչելի Ժողովուրդը']
+socialshare: true
 ---
 
 Հրաչ

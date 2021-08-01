@@ -59,6 +59,13 @@ summaryLength = 25
     comments = false
     og_image = "/images/logo.jpg"
 
+[Params.social.share]
+  facebook = true
+  linkedin = true
+  twitter = true
+  whatsapp = true
+  email = true
+
 [author]
     name = "Ֆիլիբ Զաքարեան"
 
