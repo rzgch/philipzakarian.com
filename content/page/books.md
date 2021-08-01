@@ -2,6 +2,8 @@
 title: Գիրքեր
 ---
 
+<hr>
+
 {{< figure src="/images/cover.png" caption="«Որբը Տուն Շինեց»<br>Շիրակ Տպարան, Պէյրութ, 1972"
     width="300"
     alt="Որբը Տուն Շինեց" >}}
