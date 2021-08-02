@@ -17,7 +17,8 @@ summaryLength = 25
     style="native"
 
 [permalinks]
-    post = "/post/:slug/"
+    post = "/post/:filename/"
+#    post = "/post/:slug/"
 #    post = "/post/:year/:month/:day/:slug/"
 
 [[menu.feed]]
