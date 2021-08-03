@@ -5,7 +5,7 @@ $monoFont: $mainFontFamily;
 
 /* colors: light */
 $colorLinkDark: #121212;
-$colorLinkLight: #3d6177;
+$colorLinkLight: #3d61bb;
 $colorLinkWhite: #ffffff;
 $colorBorder: #cccccc;
 $colorCodeBg: #f8f8f8;
@@ -137,7 +137,7 @@ blockquote {
 }
 
 img.cover {
-    border: 1px solid $colorLinkLight;
+    border: 1px solid $colorBorder;
     @media (max-width: 600px) {
         margin-bottom: 25px;
         float: none;
@@ -260,6 +260,7 @@ div.message {
     background-color: $colorFooterBg;
     border-radius: 6px;
     padding: 5px 10px;
+    border: 1px solid #ffdd00;
 }
 
 .date {
