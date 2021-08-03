@@ -10,7 +10,7 @@ $colorLinkWhite: #ffffff;
 $colorBorder: #cccccc;
 $colorCodeBg: #f8f8f8;
 $colorAboutBg: #eeeeee;
-$colorFooterBg: #ffffbb;
+$colorFooterBg: #ffffcc;
 $colorTitle: #263238;
 $colorArticle: #354545;
 $colorCaption: #666666;
@@ -254,7 +254,7 @@ ul {
     font-size: .9em;
 }
 
-a.termref {
+div.message {
     text-decoration: none;
 //    color: $colorPageBg;
     background-color: $colorFooterBg;
