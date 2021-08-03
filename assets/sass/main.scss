@@ -10,7 +10,7 @@ $colorLinkWhite: #ffffff;
 $colorBorder: #cccccc;
 $colorCodeBg: #f8f8f8;
 $colorAboutBg: #eeeeee;
-$colorFooterBg: #ffffd7;
+$colorFooterBg: #ffffbb;
 $colorTitle: #263238;
 $colorArticle: #354545;
 $colorCaption: #666666;
@@ -90,9 +90,10 @@ header {
 footer {
     font-size: .750rem;
     font-family: $monoFont;
-    border-top: 1px solid $colorBorder;
-    padding: 0.5rem;
-    background-color: $colorFooterBg;
+    font-weight: 600;
+//    border-top: 1px solid $colorBorder;
+    padding: 1.5rem;
+//    background-color: $colorFooterBg;
     text-align: center;
 
     a {
@@ -255,7 +256,10 @@ ul {
 
 a.termref {
     text-decoration: none;
-    padding: 0px 5px;
+//    color: $colorPageBg;
+    background-color: $colorFooterBg;
+    border-radius: 6px;
+    padding: 5px 10px;
 }
 
 .date {
