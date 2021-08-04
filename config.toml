@@ -27,23 +27,24 @@ summaryLength = 25
     url = "/index.xml"
 
 [[menu.feed]]
-    weight = 3
-    name = "մեր մասին"
-    url = "/page/contact"
-
-[[menu.feed]]
     weight = 2
     name = "կապ"
     url = "mailto:contact@philipzakarian.com"
 
 [[menu.feed]]
+    weight = 3
+    name = "թեքնիք"
+    url = "/page/technical"
+
+[[menu.feed]]
     weight = 4
+    name = "մասին"
+    url = "/page/contact"
+
+[[menu.feed]]
+    weight = 5
     name = "գիրքեր"
     url = "/page/books"
-
-#[[menu.feed]]
-#    name = "կենսագրական"
-#    url = "/page/bio"
 
 #[[menu.feed]]
 #    name = "հատորներ"
