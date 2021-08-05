@@ -4,6 +4,7 @@
 
 <div class="article-meta">
 <h5>{{ range .Params.hadorner }}«{{ . }}»{{ end }}</h5>
+<h2 class="surtitle">{{ .Params.surtitle }}</h1>
 <h1 class="title">{{ .Title }}</h1>
 {{ partial "socialshare.html" . }}
 <p class="author"></p>

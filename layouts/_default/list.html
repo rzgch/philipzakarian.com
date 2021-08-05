@@ -10,7 +10,12 @@
 <ul class="menulist">
   {{ range (where .Site.RegularPages.Reverse "Section" "==" "post") }}
   <li>
-    <a class="refindex" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <a class="refindex" href="{{ .RelPermalink }}">
+      {{ if .Params.surtitle }}
+      {{ .Params.surtitle }} -
+      {{ end }}
+      {{ .Title }}
+    </a>
   </li>
   {{ end }}
 </ul>
