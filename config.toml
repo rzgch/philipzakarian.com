@@ -38,7 +38,7 @@ summaryLength = 25
 
 [[menu.feed]]
     weight = 4
-    name = "մասին"
+    name = "ծանօթ"
     url = "/page/contact"
 
 [[menu.feed]]

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   sodipodi:docname="favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     width="512px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="1.3416246"
+     inkscape:cx="279.88456"
+     inkscape:cy="201.24855"
+     inkscape:window-width="1512"
+     inkscape:window-height="1418"
+     inkscape:window-x="1926"
+     inkscape:window-y="20"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="7.9374999,143.18307"
+       orientation="-1,0"
+       id="guide9"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="57.008467,127.52917"
+       orientation="0,1"
+       id="guide13"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="61.529877,7.9374999"
+       orientation="0,1"
+       id="guide15"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="127.52917,-6.3281543"
+       orientation="-1,0"
+       id="guide17"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="34.395833,112.78739"
+       orientation="0,1"
+       id="guide7567"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="22.599117,-6.7857937"
+       orientation="-1,0"
+       id="guide7571"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="-8.1000533,22.945027"
+       orientation="0,-1"
+       id="guide7573" />
+    <sodipodi:guide
+       position="112.41035,-7.7086324"
+       orientation="1,0"
+       id="guide7575" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect145"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,13.229167,0,1 @ F,0,0,1,0,13.229167,0,1 @ F,0,0,1,0,13.229167,0,1 @ F,0,0,1,0,13.229167,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="50"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#008080;stroke:#008080;stroke-width:0.264583;stroke-opacity:1"
+       id="rect41"
+       width="119.59167"
+       height="119.59167"
+       x="7.9374995"
+       y="7.937499"
+       inkscape:path-effect="#path-effect145"
+       d="M 21.166667,7.937499 H 114.3 a 13.229167,13.229167 45 0 1 13.22917,13.229167 V 114.3 A 13.229167,13.229167 135 0 1 114.3,127.52917 l -93.133333,0 A 13.229167,13.229167 45 0 1 7.9374995,114.3 V 21.166666 A 13.229167,13.229167 135 0 1 21.166667,7.937499 Z"
+       sodipodi:type="rect" />
+    <ellipse
+       style="fill:#ffffff;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       id="path7859"
+       cx="53.997818"
+       cy="-19.281702"
+       rx="16.780186"
+       ry="11.412323" />
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.239689;stroke-opacity:1"
+       id="rect12011"
+       width="69.91494"
+       height="50.336292"
+       x="32.775864"
+       y="62.185349"
+       ry="0.20790496" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ffffff;stroke:none;stroke-opacity:1"
+       id="path12137"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="176.97736"
+       sodipodi:cy="130.37244"
+       sodipodi:r1="89.472092"
+       sodipodi:r2="44.736046"
+       sodipodi:arg1="0.513966"
+       sodipodi:arg2="1.5611636"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 254.88979,174.36002 -77.48151,0.74639 -77.481508,0.74638 38.094368,-67.47415 38.09436,-67.474144 39.38715,66.727764 z"
+       transform="matrix(0.57956559,0,0,0.3395674,-35.315002,8.789443)"
+       inkscape:transform-center-x="-0.24974722"
+       inkscape:transform-center-y="-7.4683744" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:45.7342px;line-height:125%;font-family:'Noto Sans Armenian';-inkscape-font-specification:'Noto Sans Armenian, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.238196px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="51.497692"
+       y="112.72105"
+       id="text3275"><tspan
+         sodipodi:role="line"
+         id="tspan5951"
+         x="51.497692"
+         y="112.72105"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:45.7342px;font-family:'Noto Sans Armenian';-inkscape-font-specification:'Noto Sans Armenian, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008080;stroke-width:0.238196px">Ո</tspan></text>
+    <rect
+       style="fill:#008080;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       id="rect12514"
+       width="21.385422"
+       height="25.324352"
+       x="56.586735"
+       y="89.389694"
+       ry="0.19721116" />
+    <ellipse
+       style="fill:#008080;stroke:none;stroke-width:0.322725;stroke-opacity:1"
+       id="path12538"
+       cx="67.860268"
+       cy="87.361366"
+       rx="9.8914318"
+       ry="6.6484075" />
+  </g>
+</svg>
