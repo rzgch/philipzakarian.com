@@ -133,6 +133,10 @@ blockquote {
     float: right;
 }
 
+.allow-margin {
+    margin: 5px;
+}
+
 img.cover {
     border: 1px solid $colorBorder;
     @media (max-width: 600px) {
