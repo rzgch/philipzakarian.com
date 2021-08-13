@@ -18,7 +18,7 @@ title: Կայքի Թեքնիք Մանրամասնութիւններ
 #### Privacy
 
 - This is an ad-free, tracker-free website
-- The website does not use JavaScript, it does not utilize any client-side or server-side dynamic content
+- The website does not use JavaScript, it does not make use of any client-side or server-side dynamic content
 - No [cookies][cookie-wiki] are used
 
 [hugo-site]: https://gohugo.io/

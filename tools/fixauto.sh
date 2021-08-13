@@ -17,6 +17,7 @@ sed ${MODIFY} "s/\.\.\./…/g" "${FILENAME}"
 sed ${MODIFY} "s/ ,/,/g" "${FILENAME}"
 sed ${MODIFY} "s/ \././g" "${FILENAME}"
 sed ${MODIFY} "s/ »/»/g" "${FILENAME}"
+sed ${MODIFY} "s/ ։/։/g" "${FILENAME}"
 
 # formatting
 sed ${MODIFY} "s/\//_/g" "${FILENAME}"
@@ -37,5 +38,9 @@ sed ${MODIFY} "s/  / /g" "${FILENAME}"
 
 # check capital after michnaged
 #rg --color=auto '\. [Ա-Ֆ]' *
+
+# check small after verchaged
+#rg "։ [ա-ֆ]"
+#rg "^[ա-ֆ]"
 
 #hunspell -d hy_AM_western "${FILENAME}"
