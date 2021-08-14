@@ -21,7 +21,7 @@ sed ${MODIFY} "s/ ։/։/g" "${FILENAME}"
 
 # formatting
 sed ${MODIFY} "s/\//_/g" "${FILENAME}"
-sed ${MODIFY} 's/\*\*\*/<span class="asterism"><\/span>/g' "${FILENAME}"
+sed ${MODIFY} 's/\*\*\*/{{< asterism >}}/g' "${FILENAME}"
 
 # remove double spaces
 sed ${MODIFY} "s/  / /g" "${FILENAME}"
@@ -42,5 +42,6 @@ sed ${MODIFY} "s/  / /g" "${FILENAME}"
 # check small after verchaged
 #rg "։ [ա-ֆ]"
 #rg "^[ա-ֆ]"
+#rg "^— [ա-ֆ]"
 
 #hunspell -d hy_AM_western "${FILENAME}"
