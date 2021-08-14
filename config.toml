@@ -10,7 +10,6 @@ rssLimit = 20
 summaryLength = 25
 
 [taxonomies]
-  hador = "hadorner"
 
 [markup]
   [markup.highlight]
@@ -48,7 +47,7 @@ summaryLength = 25
 
 #[[menu.feed]]
 #    name = "հատորներ"
-#    url = "/hadorner/"
+#    url = "/book/"
 
 [params]
     footer = ""

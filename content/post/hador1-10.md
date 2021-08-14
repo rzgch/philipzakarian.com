@@ -3,7 +3,7 @@ title: Այդու Վայ
 surtitle: Վարպետ Թիւ 2
 date: 2021-01-10
 author: Ֆիլիբ Զաքարեան
-hadorner: ['Այս Սքանչելի Ժողովուրդը']
+book: Այս Սքանչելի Ժողովուրդը
 socialshare: true
 ---
 
