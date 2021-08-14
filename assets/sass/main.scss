@@ -137,16 +137,6 @@ blockquote {
     margin: 5px;
 }
 
-img.cover {
-    border: 1px solid $colorBorder;
-    @media (max-width: 600px) {
-        margin-bottom: 25px;
-        float: none;
-        width: 100%;
-        border: 0px;
-    }
-}
-
 hr {
     border: 0px;
     border-top: 1px solid $colorBorder;
@@ -183,6 +173,19 @@ figure {
         margin-right: auto;
         max-width: 100%;
         border: 1px solid $colorBorder;
+        @media (max-width: 600px) {
+            border: 0px;
+        }
+    }
+}
+
+figure.cover {
+    border: 1px solid $colorBorder;
+    @media (max-width: 600px) {
+        margin-bottom: 25px;
+        float: none;
+        width: 100%;
+        border: 0px;
     }
 }
 
