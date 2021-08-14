@@ -173,19 +173,18 @@ figure {
         margin-right: auto;
         max-width: 100%;
         border: 1px solid $colorBorder;
-        @media (max-width: 600px) {
-            border: 0px;
-        }
     }
 }
 
 figure.cover {
-    border: 1px solid $colorBorder;
-    @media (max-width: 600px) {
-        margin-bottom: 25px;
-        float: none;
-        width: 100%;
-        border: 0px;
+    img {
+        border: 1px solid $colorBorder;
+        @media (max-width: 600px) {
+            margin-bottom: 25px;
+            float: none;
+            width: 100%;
+            border: 0px;
+        }
     }
 }
 
