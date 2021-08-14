@@ -69,5 +69,5 @@ summaryLength = 25
 [author]
     name = "Ֆիլիբ Զաքարեան"
 
-[markup.goldmark.renderer]
-    unsafe= true
+#[markup.goldmark.renderer]
+#    unsafe= true
