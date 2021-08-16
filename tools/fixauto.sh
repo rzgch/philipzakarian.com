@@ -40,8 +40,11 @@ sed ${MODIFY} "s/  / /g" "${FILENAME}"
 #rg --color=auto '\. [Ա-Ֆ]' *
 
 # check small after verchaged
-#rg "։ [ա-ֆ]"
-#rg "^[ա-ֆ]"
-#rg "^— [ա-ֆ]"
+#rg "։ [ա-ֆ]" *
+#rg "^[ա-ֆ]" *
+#rg "^— [ա-ֆ]" *
+
+# 3 consecutive identical characters
+#rg --pcre2 "([ա-ֆԱ-Ֆ])\1\1" *
 
 #hunspell -d hy_AM_western "${FILENAME}"
