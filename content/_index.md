@@ -2,8 +2,9 @@
 title: Որբը Տուն Շինեց
 ---
 
-{{< figure src="/images/cover.webp"
-    width=320px height=450px
+{{< figureplus src="/images/cover" ext="png"
+    webp="yes"
     class="pull-right cover"
-    alt="Որբը Տուն Շինեց" >}}
+    width="320px" height="459px"
+    alt="«Որբը Տուն Շինեց»" >}}
 

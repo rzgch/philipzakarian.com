@@ -1,0 +1,28 @@
+{{ $src := .Get "src" }}
+{{ $ext := .Get "ext" }}
+{{ $caption := .Get "caption" }}
+{{ $alt := .Get "alt" }}
+
+{{ if $caption }}
+{{ $alt = $caption }}
+{{ end }}
+
+<figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
+  <picture>
+    {{ with .Get "avif" }}
+    <source srcset="{{$src}}.avif" type="image/avif">
+    {{ end }}
+    {{ with .Get "webp" }}
+    <source srcset="{{$src}}.webp" type="image/webp">
+    {{ end }}
+    <img src="{{$src}}.{{$ext}}"
+         {{ with .Get "width"}}width="{{ . }}"{{end}}
+         {{ with .Get "height"}}height="{{ . }}"{{end}}
+         alt="{{$alt | plainify}}">
+  </picture>
+  {{ if $caption }}
+  <figcaption>
+    <p>{{$caption | safeHTML}}</p>
+  </figcaption>
+  {{ end }}
+</figure>
