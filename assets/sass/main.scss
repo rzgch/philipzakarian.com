@@ -184,6 +184,9 @@ figure.cover {
             border: 0px;
         }
     }
+    @media (max-width: 600px) {
+        float: none;
+    }
 }
 
 figcaption {
